@@ -31,20 +31,36 @@ export const timeline: TimelineItem[] = [
 ];
 
 export const galleryImages: GalleryImage[] = [
-  { src: "/photos/1.svg", alt: "Memory placeholder one", heightClass: "h-80" },
-  { src: "/photos/2.svg", alt: "Memory placeholder two", heightClass: "h-96" },
   {
-    src: "/photos/3.svg",
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.22.40.jpeg",
+    alt: "Memory placeholder one",
+    heightClass: "h-80",
+  },
+  {
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.23.12.jpeg",
+    alt: "Memory placeholder two",
+    heightClass: "h-96",
+  },
+  {
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.26.49.jpeg",
     alt: "Memory placeholder three",
     heightClass: "h-72",
   },
   {
-    src: "/photos/4.svg",
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.24.42.jpeg",
     alt: "Memory placeholder four",
     heightClass: "h-[28rem]",
   },
-  { src: "/photos/5.svg", alt: "Memory placeholder five", heightClass: "h-80" },
-  { src: "/photos/6.svg", alt: "Memory placeholder six", heightClass: "h-96" },
+  {
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.24.10.jpeg",
+    alt: "Memory placeholder five",
+    heightClass: "h-80",
+  },
+  {
+    src: "/photos/WhatsApp Image 2026-06-12 at 13.25.45.jpeg",
+    alt: "Memory placeholder six",
+    heightClass: "h-96",
+  },
 ];
 
 export const scoreboard: ScoreboardItem[] = [

@@ -9,7 +9,9 @@ import { SectionShell } from "@/components/section-shell";
 import { cn } from "@/lib/utils";
 
 export function PhotoGallery() {
-  const [active, setActive] = useState<(typeof galleryImages)[number] | null>(null);
+  const [active, setActive] = useState<(typeof galleryImages)[number] | null>(
+    null,
+  );
 
   return (
     <SectionShell id="gallery" eyebrow="Tiny museum" title="Photo Gallery">
@@ -26,7 +28,7 @@ export function PhotoGallery() {
             transition={{ delay: index * 0.04 }}
             className={cn(
               "masonry-item relative w-full overflow-hidden rounded-[1.5rem] border border-white/50 shadow-glass focus:outline-none focus:ring-4 focus:ring-amber-200",
-              image.heightClass
+              image.heightClass,
             )}
           >
             <Image
@@ -37,10 +39,6 @@ export function PhotoGallery() {
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover"
             />
-            <span className="absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
-            <span className="absolute bottom-4 left-4 rounded-full bg-white/72 px-4 py-2 text-sm font-bold text-rosewood backdrop-blur dark:bg-black/35 dark:text-white">
-              Memory {index + 1}
-            </span>
           </motion.button>
         ))}
       </div>
@@ -61,7 +59,14 @@ export function PhotoGallery() {
               exit={{ scale: 0.9, opacity: 0 }}
               className="relative h-[78vh] w-full max-w-5xl overflow-hidden rounded-[2rem]"
             >
-              <Image src={active.src} alt={active.alt} fill priority unoptimized className="object-cover" />
+              <Image
+                src={active.src}
+                alt={active.alt}
+                fill
+                priority
+                unoptimized
+                className="object-cover"
+              />
               <button
                 type="button"
                 aria-label="Close gallery"
