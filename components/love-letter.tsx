@@ -6,7 +6,7 @@ import { SectionShell } from "@/components/section-shell";
 
 export function LoveLetter() {
   return (
-    <SectionShell id="letter" eyebrow="From my heart">
+    <SectionShell id="letter" eyebrow="From my heart" title="A Love Letter">
       <motion.article
         initial={{ opacity: 0, rotateX: -18, y: 42 }}
         whileInView={{ opacity: 1, rotateX: 0, y: 0 }}
