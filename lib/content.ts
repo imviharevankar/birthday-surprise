@@ -179,7 +179,7 @@ export const compliments = [
 
 export const floatingMessages = [
   "She is the birthday star.",
-  "Reminder: wife is always right.",
+  "Reminder: Baiko is always right.",
   "Tiny surprise unlocked.",
   "More love loading...",
   "Best day for the best girl.",
