@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Romantic memory placeholder five">
+  <defs><linearGradient id="g" x1="1" x2="0" y1="1" y2="0"><stop stop-color="#f9d423"/><stop offset=".5" stop-color="#ff4e8a"/><stop offset="1" stop-color="#7f53ac"/></linearGradient></defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <g fill="#fff" opacity=".86">
+    <circle cx="260" cy="390" r="58"/><circle cx="450" cy="320" r="76"/><circle cx="640" cy="390" r="58"/>
+    <path d="M205 760c45-155 150-235 245-235s200 80 245 235z"/>
+  </g>
+  <text x="450" y="970" text-anchor="middle" font-family="Georgia, serif" font-size="70" font-weight="700" fill="#fff">Memory 5</text>
+</svg>

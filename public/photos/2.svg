@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Romantic memory placeholder two">
+  <defs><linearGradient id="g" x1="1" x2="0" y1="0" y2="1"><stop stop-color="#ffe29f"/><stop offset=".5" stop-color="#ffa5c8"/><stop offset="1" stop-color="#7d4dff"/></linearGradient></defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <rect x="120" y="180" width="660" height="780" rx="70" fill="#fff6"/>
+  <path d="M300 570h300M450 420v300" stroke="#fff" stroke-width="42" stroke-linecap="round"/>
+  <text x="450" y="1050" text-anchor="middle" font-family="Georgia, serif" font-size="70" font-weight="700" fill="#fff">Memory 2</text>
+</svg>
