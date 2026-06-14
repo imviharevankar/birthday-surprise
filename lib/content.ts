@@ -10,7 +10,7 @@ export const timeline: TimelineItem[] = [
   },
   {
     title: "First Date",
-    date: "25 June 2026",
+    date: "25 June 2025",
     body: "A day of smiles, nervous jokes, and the first hint that this was going to be special.",
   },
   {
