@@ -16,13 +16,16 @@ import { HiddenSurprise } from "@/components/hidden-surprise";
 import { LoveLetter } from "@/components/love-letter";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { birthdayDate } from "@/lib/content";
-
+import { Analytics } from "@vercel/analytics/next";
 export default function Home() {
   const [heartClicks, setHeartClicks] = useState(0);
 
   return (
     <main className="relative min-h-screen overflow-hidden">
-      <AnimatedBackground onHeartClick={() => setHeartClicks((count) => count + 1)} />
+      <Analytics />
+      <AnimatedBackground
+        onHeartClick={() => setHeartClicks((count) => count + 1)}
+      />
       <ThemeToggle />
       <EasterEggs heartClicks={heartClicks} />
       <div className="relative z-10">
